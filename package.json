@@ -1,0 +1,23 @@
+{
+  "name": "lokesh_portfolio",
+  "version": "1.0.0",
+  "description": "\"Lokesh Gangaramaney Portfolio\"",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lokesh234/lokeshwebsite.git"
+  },
+  "author": "Lokesh Gangaramaney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lokesh234/lokeshwebsite/issues"
+  },
+  "homepage": "https://lokesh234.github.io/lokeshwebsite"
+}

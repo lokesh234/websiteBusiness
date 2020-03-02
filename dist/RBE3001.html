@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Slider.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+
+    <title>RBE 3001</title>
+</head>
+<body>
+    
+        <header>
+                <div class="menu-btn">
+                  <div class="btn-line"></div>
+                  <div class="btn-line"></div>
+                  <div class="btn-line"></div>
+                </div>
+          
+                <nav class="menu">
+                  <div class="menu-branding">
+                    <div class="portrait"></div>
+                  </div>
+                  <ul class="menu-nav">
+                    
+                      <li class="nav-item">
+                          <a href="index.html" class="nav-link">
+                            Home
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="about.html" class="nav-link">
+                            Skills & Experience
+                          </a>
+                        </li>
+                        <li class="nav-item current">
+                          <a href="work.html" class="nav-link">
+                            Projects
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Resume.pdf" download class="nav-link">
+                            Resume
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="contact.html" class="nav-link">
+                            Contact
+                          </a>
+                  </ul>
+                </nav>
+              </header>
+ 
+<div class="slider-wrapper">
+        <div class="slider">
+          <input type="radio" name="slider" class="trigger" id="one" checked="checked" />
+          <div class="slide">
+            <figure class="slide-figure">
+              <img class="slide-img" src="im/FrontView3001.jpg"/>
+              <figcaption class="slide-caption"><p> RBE 3001 Arm </p></figcaption>
+            </figure><!-- .slide-figure -->
+                      </div><!-- .slide -->
+          <input type="radio" name="slider" class="trigger" id="two" />
+          <div class="slide">
+            <figure class="slide-figure">
+              <img class="slide-img" src="im/RBE3001CAD.png" />
+              <figcaption class="slide-caption"><p> Arm CAD </p></figcaption>
+            </figure><!-- .slide-figure -->
+          </div><!-- .slide -->
+          <input type="radio" name="slider" class="trigger" id="three" />
+          <div class="slide">
+            <figure class="slide-figure">
+              <img class="slide-img" src="im/RBE3001Zoom.png" />
+              <figcaption class="slide-caption"><p> Sorting Objects </p></figcaption>
+            </figure><!-- .slide-figure -->
+          </div><!-- .slide -->
+          <input type="radio" name="slider" class="trigger" id="four" />
+          <div class="slide">
+                <figure class="slide-figure">
+                  <img class="slide-img" src="im/3001Board.jpg" />
+                  <figcaption class="slide-caption"><p> Board </p></figcaption>
+                </figure><!-- .slide-figure -->
+              </div><!-- .slide -->
+        </div><!-- .slider -->
+        <div class="navigation">
+        <ul class="slider-nav">
+                <li class="slider-nav__item"><label class="slider-nav__label" for="one">1</label></li>
+                <li class="slider-nav__item"><label class="slider-nav__label" for="two">2</label></li>
+                <li class="slider-nav__item"><label class="slider-nav__label" for="three">3</label></li>
+                <li class="slider-nav__item"><label class="slider-nav__label" for="four">4</label></li>
+              </ul>
+        <!-- .slider-nav -->
+        </div>
+
+      </div><!-- .slider-wrapper -->
+
+      <div class="grid-container">
+      <div class="text">
+          <div>
+              <h2> RBE <span class="text-secondary"> 3001 </span> </h2>
+              <h3> Sophomore Year College </h3>
+            <p> The third robotics course in a series of four, this course teaches the fundamentals of industrial arm robotics. Forward, Inverse, and Differential Kinematics with the arm being controlled by the nucleo microprocessor. Low - level C code controls the basic PID, Motor and Sensor control while taking high level Matlab code as packets for higher level functionality.  </p>
+
+            <p> The high level packets send information to control forward, inverse, and differential kinematics. All kinematics are patterned by the Denavit - Hartenberg convention for the necessary joints of the RBE 3001 Arm. The Denavit-Hartenberg parameters are the four parameters associated with a particular convention for attaching reference frames to the links of a spatial kinematic chain, or robot manipulator.</p>
+
+            <p> The final project is to use the RBE 3001 Arm and control it to sort objects by their respective color and size with forward, inverse, differential kinematics of the RBE 3001 Arm. To sort objects by color, I wrote a MATLAB script to recognize objects by computer vision with the given camera in the robot. </p>
+
+            <p> The Github Code can be found below : </p>
+
+           <a href="https://github.com/lokesh234/RBE300Xnucleofirmware" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+            </div>
+            <div><img src="im/WPI.png"></div>
+      </div>
+    </div>
+    
+    <footer id="main-footer">
+            Lokesh Gangaramaney @ 2019
+          </footer>
+   
+          <script src="js/main.js"></script>
+ 
+         </body>
+</html>
